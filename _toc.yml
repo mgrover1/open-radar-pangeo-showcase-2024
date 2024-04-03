@@ -7,3 +7,4 @@ parts:
   - caption: The Content!
     chapters:
       - file: notebooks/slides.md
+      - file: notebooks/intro-to-pyart-xradar
