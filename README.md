@@ -1,12 +1,10 @@
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
 
-# (Replace_with_your_title) Cookbook
+# The Open Radar Stack: Bringing Weather Radar Data into Pangeo
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
+[![nightly-build](https://github.com/mgrover1/open-radar-pangeo-showcase-2024/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/mgrover1/open-radar-pangeo-showcase-2024/actions/workflows/nightly-build.yaml)
+[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/mgrover1/open-radar-pangeo-showcase-2024/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
-
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
 
 ## Motivation
 
@@ -14,25 +12,23 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Authors
 
-[First Author](@first-author), [Second Author](@second-author), etc. _Acknowledge primary content authors here_
+[Max Grover](https://github.com/mgrover1), [Kai Mühlbauer](https://github.com/kmuehlbauer), [Alfonso Ladino](https://github.com/aladino), [Scott Collis](https://github.com/scollis), [Zach Sherman](https://github.com/zssherman), [Bobby Jackson](https://github.com/rcjackson), [Joe O'Brien](https://github.com/jrobrien91)
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/mgrover1/open-radar-pangeo-showcase-2024/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mgrover1/open-radar-pangeo-showcase-2024" />
 </a>
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+### Slide Presentation
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+[Slides related to the presentation!](notebooks/slides.md)
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+### Live Demo
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-
-(Add content for this section, e.g., "Example workflows include ... ")
+[This is where things get fun... and we try things!]()
 
 ## Running the Notebooks
 
@@ -59,22 +55,22 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
+(Replace "open-radar-pangeo-showcase-2024" with the title of your cookbooks)
 
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/mgrover1/open-radar-pangeo-showcase-2024` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/mgrover1/open-radar-pangeo-showcase-2024.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `open-radar-pangeo-showcase-2024` directory
    ```bash
-   cd cookbook-example
+   cd open-radar-pangeo-showcase-2024
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate open-radar-pangeo-showcase-2024-dev
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
