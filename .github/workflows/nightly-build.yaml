@@ -7,11 +7,11 @@ on:
 
 jobs:
   build:
-    if: ${{ github.repository_owner == 'ProjectPythia' }}
+    if: ${{ github.repository_owner == 'mgrover1' }}
     uses: ProjectPythia/cookbook-actions/.github/workflows/build-book.yaml@main
     with:
       environment_name: open-radar-pangeo-showcase-2024-dev
 
   link-check:
-    if: ${{ github.repository_owner == 'ProjectPythia' }}
+    if: ${{ github.repository_owner == 'mgrover1' }}
     uses: ProjectPythia/cookbook-actions/.github/workflows/link-checker.yaml@main
