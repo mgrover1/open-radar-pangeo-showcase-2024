@@ -1,8 +1,17 @@
-name: cookbook-dev
+name: open-radar-pangeo-showcase-2024-dev
 channels:
   - conda-forge
+  - pyviz
 dependencies:
   - jupyter-book
   - jupyterlab
   - jupyter_server
   - sphinx-pythia-theme
+  - xradar
+  - open-radar-data
+  - arm_pyart
+  - wradlib
+  - matplotlib
+  - holoviews
+  - hvplot
+  - geoviews

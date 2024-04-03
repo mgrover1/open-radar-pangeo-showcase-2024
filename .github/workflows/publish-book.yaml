@@ -11,8 +11,7 @@ jobs:
   build:
     uses: ProjectPythia/cookbook-actions/.github/workflows/build-book.yaml@main
     with:
-      environment_name: cookbook-dev
-
+      environment_name: open-radar-pangeo-showcase-2024-dev
   deploy:
     needs: build
     uses: ProjectPythia/cookbook-actions/.github/workflows/deploy-book.yaml@main
