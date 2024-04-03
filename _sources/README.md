@@ -4,11 +4,10 @@
 
 [![nightly-build](https://github.com/mgrover1/open-radar-pangeo-showcase-2024/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/mgrover1/open-radar-pangeo-showcase-2024/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/mgrover1/open-radar-pangeo-showcase-2024/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This will showcase how we are bringing radar into the Pangeo community!
 
 ## Authors
 
